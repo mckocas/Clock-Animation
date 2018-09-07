@@ -1,0 +1,111 @@
+.zero{
+    margin:0;
+    padding:0;
+    position: relative;
+    width: 3px;
+    height: 100px;
+    background:black;
+    transform-origin: center;
+    left:375px;
+    display: inline-block;
+}
+/* .little => Represents 1-2-4-5-7-8-10-11th hour. If you want, you can change their color etc. */
+.little{
+    height:75px;
+    /*background-color: #ccc;*/
+}
+.one{
+    transform: rotate(30deg);
+    left:520px;
+    top:25px;
+
+}
+.two{
+    transform: rotate(60deg);
+    left: 628px;
+    top: 134px;
+
+}
+.three{
+    transform: rotate(90deg);
+    left: 640px;
+    top: 300px;
+}
+.four{
+    transform: rotate(120deg);
+    left: 610px;
+    top: 440px;
+}
+.five{
+    transform: rotate(150deg);
+    left: 492px;
+    top: 550px;
+}
+.six{
+    left: 333px;
+    top: 600px;
+}
+.seven{
+    transform: rotate(210deg);
+    left: 175px;
+    top: 550px;
+}
+.eight{
+    transform: rotate(240deg);
+    left: 55px;
+    top:440px;
+}
+.nine{
+    transform: rotate(-90deg);
+    left: 25px;
+    top : 300px;
+}
+.ten{
+    transform: rotate(-60deg);
+    left: 40px;
+    top: 134px;
+}
+.eleven{
+    transform: rotate(-30deg);
+    left: 146px;
+    top: 25px;
+}
+#container{
+    width:800px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    display:block;
+}
+#clock{
+    width: 750px;
+    height: 750px;
+    margin: 10px 15px;
+    padding:0;
+
+    display:inline-block;
+}
+#center{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 275px;
+    top: 150px;
+
+}
+#minuteHand{
+    width:5px; 
+    height: 300px;
+    left: 90px;
+    bottom: 204px;
+    transform-origin: bottom;
+    background-color:red;
+}
+#hourHand{
+    width: 5px;
+    background-color:black;
+    height: 175px;
+    left: 99px;
+    bottom: 204px;
+    transform-origin: bottom;
+}
